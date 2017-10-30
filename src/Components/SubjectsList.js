@@ -4,7 +4,7 @@ class SubjectsList extends Component {
   render() {
     return (
         <li className="Subject">
-          <strong> {this.props.subjects.title}- </strong>{this.props.subjects.group} 
+          <strong> {this.props.subjects.title}</strong>: {this.props.subjects.group} 
         </li>   
     );
   }
