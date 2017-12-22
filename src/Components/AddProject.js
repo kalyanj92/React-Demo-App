@@ -36,6 +36,7 @@ class AddProject extends Component {
     return (
       <div>
         <h3>Add Subjects</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pgAvVxowaYU" frameborder="1" gesture="media" allow="encrypted-media" allowFullScreen></iframe>
         <form onSubmit={this.handleSubmit.bind(this)}>
           <div>
             <label>Title :</label><br />
