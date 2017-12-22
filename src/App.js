@@ -29,6 +29,7 @@ class App extends Component {
         console.log(err);
       }
     });
+
   }
 
   getProjects(){
@@ -40,7 +41,7 @@ class App extends Component {
       },
       {
         id:uuid.v4(),
-        title: 'Biology',
+        title: 'Biologyy',
         group: 'BiPC'
       },
       {
